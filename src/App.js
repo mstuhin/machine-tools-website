@@ -8,6 +8,7 @@ import Login from './Pages/Home/Login/Login';
 import Footer from './Pages/Home/Footer';
 
 
+
 function App() {
   return (
     <div >
@@ -18,6 +19,7 @@ function App() {
         <Route path="login" element={<Login />} />
       </Routes>
       <Footer></Footer>
+
     </div>
   );
 }
